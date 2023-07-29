@@ -1,0 +1,23 @@
+
+
+body {
+    direction: rtl;
+    
+}
+@font-face {
+    font-family: DanaVF;
+	font-weight: 400;
+    src: url('fonts/DanaVF.woff2') format('woff2'),
+         url('fonts/DanaVF.woff') format('woff')
+}
+.logo {
+    width: 25%;
+    margin-top: 8%;
+    
+}
+
+.container {
+    font-family: DanaVF;
+    display: grid;
+    place-items: center;
+}
